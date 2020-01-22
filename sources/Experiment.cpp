@@ -5,8 +5,8 @@
 
 Experiment::Experiment(uint64_t number)
 {
-    elements_amount = number;
-  a  buffer = new uint64_t[elements_amount];
+ aa   elements_amount = number;
+    buffer = new uint64_t[elements_amount];
 
     std::srand(clock());
     for (uint64_t i = 0; i < elements_amount; ++i)
