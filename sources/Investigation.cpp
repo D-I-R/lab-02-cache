@@ -26,7 +26,7 @@ void Investigation::Begin_expirement()
 
 void Investigation::End_expirement(std::ofstream& file)
 {
-    file << "investigaion:" << std::endl; 
+    file << "investigaion:" << std::endl;
     file << " travel_order: \"Direction\"" << std::endl;
     file << " experiments:" << std::endl;
     file << " - experiment:" << std::endl;
